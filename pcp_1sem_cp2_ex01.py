@@ -1,5 +1,5 @@
 #Entrada de dados
-estado_origem = int(input("Digite o código do estado (1 a 5): "))
+estado_origem = int(input("Digite o código do estado (1SEM-CP2---Esturutra-Condicional-e-Fun-es a 5): "))
 peso_toneladas = float(input("Digite o peso da carga em toneladas: "))
 codigo_carga = int(input("Digite o código da carga (10 a 40): "))
 
@@ -25,9 +25,9 @@ elif estado_origem == 2:
     porcentagem_imposto = 0.25
 elif estado_origem == 3:
     porcentagem_imposto = 0.15
-elif estado_origem == 4
+elif estado_origem == 4:
     porcentagem_imposto = 0.05
-elif estado_origem == 5
+elif estado_origem == 5:
     porcentagem_imposto = 0.00 #isento de imposto
 else:
     porcentagem_imposto = 0.00
