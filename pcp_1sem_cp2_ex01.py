@@ -25,9 +25,9 @@ elif estado_origem == 2:
     porcentagem_imposto = 0.25
 elif estado_origem == 3:
     porcentagem_imposto = 0.15
-elif estado_origem == 4
+elif estado_origem == 4:
     porcentagem_imposto = 0.05
-elif estado_origem == 5
+elif estado_origem == 5:
     porcentagem_imposto = 0.00 #isento de imposto
 else:
     porcentagem_imposto = 0.00
@@ -35,3 +35,12 @@ else:
 valor_imposto = preco_carga * porcentagem_imposto
 
 #Calcular o valor total
+valor_total = preco_carga + valor_imposto
+
+#exibir resultado
+print("-" * 30)
+print(f"Peso em quilos: {peso_quilos:,.2f} kg")
+print(f"Preço da carga: R$ {preco_carga:,.2f}")
+print(f"Valor do imposto: R$ {valor_imposto:,.2f}")
+print(f"Valor total transportado: R$ {valor_total:,.2f}")
+print("-" * 30)
