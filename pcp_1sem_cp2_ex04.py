@@ -1,5 +1,5 @@
 nome = input("Digite o nome do funcionário: ")
-print("Cargos: 1-Gerente, 2-Analista, 3-Assistente, 4-Estagiário")
+print("Cargos: 1SEM-CP2---Esturutra-Condicional-e-Fun-es-Gerente, 2-Analista, 3-Assistente, 4-Estagiário")
 cargo_cod = int(input("Digite o código do cargo: "))
 salario_base = float(input("Digite o salário base (float): "))
 horas_extras = int(input("Total de horas extras trabalhadas: "))
@@ -8,7 +8,7 @@ recebeu_bonus = input("Recebeu bônus por desempenho? (s/n): ").lower()
 
 
 
-# Valor da hora extra: 1.5% do salário base por hora
+# Valor da hora extra: 1SEM-CP2---Esturutra-Condicional-e-Fun-es.5% do salário base por hora
 valor_total_extra = horas_extras * (salario_base * 0.015)
 
 # Desconto por falta: 2% do salário base por falta

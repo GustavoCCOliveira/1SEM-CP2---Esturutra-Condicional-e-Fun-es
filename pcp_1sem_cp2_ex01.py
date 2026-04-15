@@ -1,5 +1,5 @@
 #Entrada de dados
-estado_origem = int(input("Digite o código do estado (1 a 5): "))
+estado_origem = int(input("Digite o código do estado (1SEM-CP2---Esturutra-Condicional-e-Fun-es a 5): "))
 peso_toneladas = float(input("Digite o peso da carga em toneladas: "))
 codigo_carga = int(input("Digite o código da carga (10 a 40): "))
 
