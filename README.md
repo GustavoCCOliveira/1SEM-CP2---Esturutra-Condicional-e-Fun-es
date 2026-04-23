@@ -2,6 +2,9 @@
 
 # Integrantes:
 Diogo Chiaradia Santos - RM: 570246
+
 Lucas Furquim Lima - RM: 568690
+
 Pedro Ribeiro Lopes - RM: 570083
+
 Gustavo Torres de Oliveira - RM: 572952
